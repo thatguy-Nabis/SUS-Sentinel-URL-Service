@@ -1,0 +1,33 @@
+[
+  {
+    "url": "https://www.google.com/",
+    "expected_is_ip": 0.0,
+    "expected_has_https": 1.0,
+    "expected_is_shortener": 0.0,
+    "expected_brand_in_subdomain_or_path": 0.0,
+    "expected_suspicious_keyword_count": 0.0
+  },
+  {
+    "url": "http://192.168.1.1/admin/login.php",
+    "expected_is_ip": 1.0,
+    "expected_has_https": 0.0,
+    "expected_is_shortener": 0.0,
+    "expected_brand_in_subdomain_or_path": 0.0,
+    "expected_suspicious_keyword_count": 2.0
+  },
+  {
+    "url": "http://paypal-security-update.account-verification.xyz/login",
+    "expected_is_ip": 0.0,
+    "expected_has_https": 0.0,
+    "expected_high_risk_tld": 1.0,
+    "expected_brand_in_subdomain_or_path": 1.0,
+    "expected_suspicious_keyword_count": 4.0
+  },
+  {
+    "url": "https://bit.ly/3xY9zQ",
+    "expected_is_ip": 0.0,
+    "expected_has_https": 1.0,
+    "expected_is_shortener": 1.0,
+    "expected_suspicious_keyword_count": 0.0
+  }
+]
