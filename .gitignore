@@ -42,3 +42,5 @@ Dataset/Malicious-URL-Detection*
 Dataset/MURL*
 Dataset/Dataset-Filtered/*.csv
 
+# Docs and AI files
+docs/
