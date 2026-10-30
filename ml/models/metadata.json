@@ -1,0 +1,55 @@
+{
+  "model_version": "2026.10.1",
+  "created_at": "2026-10-08 21:06:01",
+  "features": [
+    "url_length",
+    "host_length",
+    "path_length",
+    "has_https",
+    "is_ip",
+    "is_shortener",
+    "count_dots",
+    "count_hyphens",
+    "count_underscores",
+    "count_slashes",
+    "count_question_marks",
+    "count_equal_signs",
+    "count_at_symbols",
+    "count_percent_signs",
+    "count_ampersands",
+    "count_digits",
+    "digit_ratio_url",
+    "digit_ratio_host",
+    "subdomain_count",
+    "url_entropy",
+    "host_entropy",
+    "suspicious_keyword_count",
+    "suspicious_keyword_in_host",
+    "high_risk_tld",
+    "brand_in_subdomain_or_path",
+    "has_double_slash_in_path",
+    "longest_token_length",
+    "vowel_consonant_ratio",
+    "special_char_ratio",
+    "has_port_specified"
+  ],
+  "metrics": {
+    "test_accuracy": 0.7815,
+    "test_precision": 0.7470059880239521,
+    "test_recall": 0.5694721825962911,
+    "test_f1": 0.6462684150882305,
+    "test_roc_auc": 0.8594911261707954,
+    "test_pr_auc": 0.7841260153478822,
+    "recall_at_01_fpr": 0.09757489300998573,
+    "expected_calibration_error": 0.03555314918539002
+  },
+  "thresholds": {
+    "safe_upper": 0.3,
+    "suspicious_upper": 0.7,
+    "strict_recall_threshold": 0.9687164080507167
+  },
+  "calibrator": {
+    "a": 2.1205465105780146,
+    "b": 0.10379911738357825
+  }
+}
